@@ -1,0 +1,744 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*helper css*/
+
+
+
+.section{
+    background-image: linear-gradient(to top,rgba(0, 0, 0,0.9) , rgba(0,0,0,0.9),black),url(../img/layer1.png);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    
+    object-fit: cover;
+    background-size: 100% 100%;
+     /* width: 100%; */
+    height: 100vh; 
+}
+
+/*header css*/
+.header{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    
+    align-items: center;
+    /* margin-top: 10px; */
+}
+.header ul{
+    display: flex;
+    margin-right: 30px;
+    margin: 0;
+    padding: 0;
+}
+.header ul li{
+    list-style: none;
+}
+.header ul li a{
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+.header ul li a:hover{
+    
+    color: #FE8F00;
+}
+
+.logo{
+    margin: 0 auto;
+    margin-top: 15px;
+    
+
+}
+#img9{
+    align-self: end;
+    width: 100px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    height: 85%;
+    width: 90%;
+    margin: 0 auto;
+    flex-grow: 1;
+}
+
+.img img{
+    width: 95%;
+    height: 400px;
+    /* margin-top: 50px; */
+    
+    
+
+    
+}
+ .box_heading{
+     width:35%;
+     line-height: 1;
+     padding-left: 30px;
+     
+}
+ .box_heading h1{
+     font-size: 50px;
+     word-spacing: 10px;
+     text-transform: capitalize;
+     color: #FE8F00;
+    
+ }
+ .box_heading p{
+     font-size: 20px;
+     word-spacing: 10px;
+     line-height: 1;
+ }
+ .box_heading button{
+     padding: 10px 30px;
+     background: #FE8F00;
+     border: none;
+     font-size: 20px;
+     text-transform: capitalize;
+     font-weight: bolder;
+     
+     
+ }
+ .contant{
+     background: #17151D;
+     width: 100%;
+     height: 2400%;
+    
+    
+ }
+ aside{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     width: 90%;
+     height: 400px;
+     margin: 0 auto;
+     /* border: white 1px solid; */
+     
+ }
+ .img1{
+     flex-basis: 30vw;
+     /* border: blue 1px solid ; */
+ }
+ .img1 img{
+     width: 100%;
+     height:300px;
+ }
+ .heading{
+     flex-basis: 54vw;
+     /* border: red 1px solid ; */
+ }
+ .heading h1{
+     font-size: 35px;
+     line-height: 2;
+ }
+
+ .heading p{
+    font-size: 25px;
+}
+.img2 img{
+    height: 500px;
+    width: 300px;
+    justify-items: flex-end;
+}
+.img2{
+    display: flex;
+    justify-content: flex-end;
+}
+.img3 img{
+    height: 800px;
+    margin-top: -320px;
+    width: 100%;
+
+    
+}
+
+.heading1{
+    width: 88%;
+    margin: 0 auto; 
+    margin-top: -690px;
+    
+}
+.heading1 h1{
+    font-size: 35px;
+    text-transform: capitalize;
+    line-height: 2;
+    font-weight: bold;
+}
+.heading1 p{
+    width: 440px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.img4{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -70px;
+}
+.img4 img{
+    width: 500px;
+    height: 563px;
+}
+.img5 img{
+    margin-top: -400px;
+    width: 400px;
+    height: 400px;
+}
+.gallery{
+    width: 90%;
+    margin: 0 auto;
+    
+
+    
+
+}
+.gallery h1{
+    text-align: center;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+.pics img{
+    width: 29%;
+    height: 300px;
+    border: 1px solid #FE8F00;
+    margin: 30px 10px 20px 30px;
+}
+.bg{
+    background-image: url(../img/layer.png);
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg1{
+    border: 6px solid #FE8F00;
+    width: 670px;
+    height: 360px;
+    padding: 40px 100px 0px;
+    background:rgba(0,0,0,0.43);
+
+}
+.bg1 h1{
+    font-size: 34px;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+}
+.bg1 p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.our_team{
+    width: 100%;
+    height: 800%;
+    background: #17151D;
+    
+}
+.our_team1{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        
+        
+}
+.our_team h1{
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    font-size: 35px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.our_team_boxs{
+    flex-grow: 1;
+    margin: 20px;
+    margin-top: 50px;
+    
+}
+.our_team_boxs img{
+    width:100%;
+    height: 300px;
+    object-fit: cover;
+}
+.our_team_boxs h2{
+    font-size: 27px;
+    line-height: 2;
+    color:#FE8F00;
+    text-transform: capitalize;
+}
+.our_team_boxs p{
+    text-transform: capitalize;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+.enjoy_best_meal{
+    background-image: url(../img/Rectangle.png);
+    width: 100%;
+    height: 400%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.imgs{
+    flex-basis: 60vw;
+}
+.heading_one{
+    flex-basis: 50vw;
+    
+}
+
+.heading_one h1{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: capitalize;
+    
+
+}
+.heading_one p{
+    
+    width: 60%;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.enjoy_best_meal img{
+    width: 80%;
+    height: 430px;
+    
+    
+
+}
+.footer{
+    background: #17151D;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo2 img{
+    width: 100%;
+}
+.nav1 ul{
+    display: flex;
+
+}
+.nav1 li{
+    list-style: none;
+}
+.nav1 li a{
+    padding: 40px 30px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#eee;
+    font-weight: lighter;
+}
+.icon img{
+    padding: 0px 20px;
+}
+
+@media screen and (max-width: 1140px){
+    .img img{
+        width: 90%;
+        height: 400px;
+        }
+     .box_heading{
+         width:60%;
+         
+         
+    }
+    .img1{
+        flex-basis: 35vw;
+        border: blue 1px solid ;
+    }
+    .heading{
+        flex-basis: 50vw;
+        border: red 1px solid ;
+    }
+    .heading h1{
+        font-size: 35px;
+        line-height: 2;
+    }
+   
+    .heading p{
+       font-size: 23px;
+   }
+   .img4 img{
+    width: 500px;
+    height: 500px;
+    }
+    .img5 img{
+
+    width: 360px;
+    height: 350px;
+    }
+    .pics img{
+        width: 28%
+        
+    }
+    
+    .our_team_boxs h2{
+        font-size: 20px;
+    
+    }
+
+    
+    .enjoy_best_meal img{
+        width: 75%;
+        height: 430px;
+        
+        
+    
+    }
+    
+   
+
+   
+    
+    
+    
+
+
+}
+@media screen and (max-width: 940px){
+    .header ul li a{
+        padding: 10px 10px;
+        
+    }
+    .img img{
+        width: 90%;
+        height: 300px;
+        }
+     .box_heading{
+         width:55%;
+         }
+    .box_heading h1{
+         font-size: 22px;
+           
+        }
+    .box_heading p{
+         font-size: 16px;
+              
+        }
+        .heading1{
+            width: 50%;
+            margin-left: 20px;
+            
+        }
+        .heading1 h1{
+            font-size: 30px;
+        }
+        
+
+        .img4 img{
+            width: 370px;
+            height: 500px;
+            }
+            .img5 img{
+        
+            width: 300px;
+            height: 300px;
+            }
+            .pics img{
+                width: 43%
+                
+            }
+            .bg1{
+            
+                width: 520px;
+                height: 360px;
+                padding: 40px;
+            
+            }
+            .our_team_boxs img{
+                width:110%;
+                height: 300px;
+                object-fit: cover;
+            }
+            
+            
+           
+           
+        
+    
+}
+@media screen and (max-width: 740px){
+    .header ul li a{
+        padding: 10px 5px;
+        font-size: 15px;
+        
+    }
+    #img9{
+        
+        width: 70px;
+    }
+    .img img{
+        width: 95%;
+        height: 300px;
+        }
+     .box_heading{
+         width:100%;
+         }
+    .box_heading h1{
+         font-size: 22px;
+           
+        }
+        .img1{
+            flex-basis: 35vw;
+            border: blue 1px solid ;
+        }
+        .heading{
+            flex-basis: 50vw;
+            border: red 1px solid ;
+        }
+        .heading h1{
+            font-size: 30px;
+            line-height: 2;
+        }
+       
+        .heading p{
+           font-size: 20px;
+       }
+       .img3 img{
+           height: 740px;
+           padding-top: 100px;
+           
+       }
+       .heading1{
+        padding-top: 150px;
+       }
+       
+    .heading1 h1{
+        font-size: 30px;
+        
+    }
+    .heading1 p{
+        font-size: 17px;
+        width: 85%;
+        
+    }
+
+    .img4 img{
+        width: 360px;
+        height: 400px;
+        margin-top: -20px;
+        }
+        .img5 img{
+    
+        width: 250px;
+        height: 280px;
+        }
+        .pics img{
+            width: 38%
+            
+        }
+        .bg1{
+            
+            width: 440px;
+            height: 360px;
+            padding: 20px;
+        
+        }
+        .our_team1{
+            width: 98%;
+            margin: 0 auto;
+            
+            
+    }
+    .our_team_boxs{
+        margin: 10px 5px;
+    }
+        .our_team_boxs img{
+            width:100%;
+            height: 300px;
+            object-fit: cover;
+        }
+        .our_team1{
+            width: 100%;
+        }
+        .imgs img{
+            height: 400px;
+        }
+        .imgs{
+            flex-basis: 50vw;
+        }
+        .heading_one{
+            flex-basis: 60vw;
+            
+        }
+        .nav1 li a{
+            padding: 20px 10px;
+        
+        }
+        
+        
+       
+       
+
+    
+}
+@media screen and (max-width: 600px){
+    .header{
+         flex-direction: column;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 75%;
+        width: 90%;
+        
+    }
+    .img img{
+        width: 70%;
+        height: 230px;
+        margin-left: 50px;
+        }
+     
+    .box_heading h1{
+         font-size: 30px;
+         text-align: center;
+           
+        }
+        .box_heading p{
+            font-size: 16px;
+            text-align: center;
+              
+        }
+        .box_heading button{
+            padding: 10px 30px;
+            margin-left: 30%;
+            
+            
+        }
+        .aside{
+            flex-direction: column;
+        }
+        .img1{
+            flex-basis: 35vw;
+            border: blue 1px solid ;
+        }
+        .heading{
+            flex-basis: 50vw;
+            border: red 1px solid ;
+        }
+        .heading h1{
+            font-size: 35px;
+            line-height: 2;
+        }
+       
+        .heading p{
+           font-size: 23px;
+       }
+       .img2 img{
+           margin-top: 190px;
+            height: 280px;
+            width: 200px;
+       }
+       .img3 img{
+        height: 740px;
+        padding-top: 140px;
+        
+    }
+    .heading1{
+     width: 80%;
+    }
+    
+ .heading1 h1{
+     font-size: 30px;
+     
+ }
+ .heading1 p{
+     font-size: 17px;
+     width: 70%;
+     
+ }
+
+ .img4 img{
+     width: 250px;
+     height: 400px;
+    
+    
+     }
+     .img5 img{
+ 
+     width: 170px;
+     height: 280px;
+    
+     }
+     .pics img{
+        width: 80%
+        
+    }
+    .our_team_boxs img{
+        width:100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    .our_team1{
+        flex-direction: column;
+        width: 90%;
+    }
+    .our_team_boxs h2{
+        font-size: 35px;
+    
+    }
+    .our_team_boxs p{
+        font-size: 20px;
+    
+    }
+    .enjoy_best_meal{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .imgs{
+        flex-basis: 80vw;
+        margin-left: 60px;
+    }
+    .heading_one{
+        flex-basis: 60vw;
+        margin-left: 60px;
+        
+    }
+    .heading_one h1{
+        text-align: center;
+    }
+    .heading_one p{
+        text-align: center;
+        margin-left: 30px;
+    }
+    .nav1 li a{
+        padding: 10px 5px;
+        font-size: 80%;
+    
+    }
+    
+    
+    
+    
+    
+
+        
+
+    
+}
